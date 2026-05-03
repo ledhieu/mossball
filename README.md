@@ -4,7 +4,7 @@ An interactive WebGL moss ball rendered with **125,000 instanced moss strands** 
 
 ## Features
 
-- **125,000 instanced moss blades** with per-blade physics
+- **125,000-500,000 instanced moss blades** with per-blade physics
 - **Directional clumping** — flow-field noise creates organic hair-lock texture without bald spots
 - **Interactive physics** — click to nudge the ball; it rolls, spins, and settles with spring physics
 - **Wind simulation** — procedural wind affects blade bending in real time
