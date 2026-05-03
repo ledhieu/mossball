@@ -202,19 +202,6 @@
   ballGroup.add(hitSphere);
   scene.add(ballGroup);
 
-  // ===== Lighting =====
-  // Top spotlight (warm, pointed down at ball, slightly toward back)
-  const topSpot = new THREE.SpotLight('#fff5e0', 110, 35, Math.PI * 0.12, 0.5, 1);
-  topSpot.position.set(0, 14, -5);
-  topSpot.target.position.set(0, 0, 0);
-  scene.add(topSpot);
-  scene.add(topSpot.target);
-
-  // Backlight (warm amber rim light from behind)
-  const backLight = new THREE.DirectionalLight('#d0c0a0', 2.0);
-  backLight.position.set(0, 2, -12);
-  scene.add(backLight);
-
   // ===== Aquarium Post-Processing =====
   const renderTarget = new THREE.WebGLRenderTarget(1, 1, {
     minFilter: THREE.LinearFilter,
@@ -548,9 +535,6 @@
       window.removeEventListener('click', onClick);
       window.removeEventListener('resize', updateRenderTargetSize);
       scene.remove(ballGroup);
-      scene.remove(topSpot);
-      scene.remove(topSpot.target);
-      scene.remove(backLight);
       bladeGeo.dispose();
       mesh.geometry.dispose();
       mesh.material.dispose();

@@ -22,11 +22,6 @@
       far={100}
       oncreate={(ref) => { ref.lookAt(0, 0, 0); }}
     />
-
-    <T.AmbientLight intensity={0.0} />
-    <T.DirectionalLight position={[5, 10, 7]} intensity={1.2} color="#fff4e0" />
-    <T.DirectionalLight position={[-3, -2, -5]} intensity={0.3} color="#d0e0ff" />
-
     <MossBall />
   </Canvas>
 </div>
