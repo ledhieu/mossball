@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moss Ball — Interactive WebGL Moss Ball</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: #050810;
+        overflow: hidden;
+      }
+      #gui-container {
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        z-index: 10;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="gui-container"></div>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
