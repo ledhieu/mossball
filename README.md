@@ -109,7 +109,7 @@ src/
 
 - [Svelte](https://svelte.dev) 5
 - [Three.js](https://threejs.org)
-- [Threlte](https://threlte.xyz) (Core + Extras)
+- [Threlte](https://threlte.xyz)
 - [lil-gui](https://lil-gui.georgealways.com) (for the control panel)
 
 ## Author
