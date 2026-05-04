@@ -5,7 +5,7 @@
 <a href="https://leduchieu.com"><img src="https://img.shields.io/badge/-Hieu%20Le-grey"></a><a href="https://imoss.bio"><img src="https://img.shields.io/badge/-imoss.bio-green"></a>
 </div>
 
-> 🌱 **Live demo:** [imoss.bio](https://imoss.bio)
+> **Live demo:** [imoss.bio](https://imoss.bio)
 
 
 
