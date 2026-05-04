@@ -13,7 +13,7 @@ https://github.com/user-attachments/assets/42fe0a2d-f9b9-4d5a-81ad-4a632b12baf5
 
 
 
-An interactive WebGL (Three.js) custom shader Marimo moss ball rendered with **125,000 instanced - 500,000 moss strands** on a rolling sphere. Built with [Threlte](https://threlte.xyz) (Svelte + Three.js).
+An interactive WebGL (Three.js) custom shader Marimo moss ball rendered with **500,000 moss strands**. The best part? Looks Blender ray-traced, but running in real-time right in the browser. And interacts with physics. Built with [Threlte](https://threlte.xyz) (Svelte + Three.js).
 
 ## Run locally
 
